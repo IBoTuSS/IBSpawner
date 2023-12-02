@@ -1,0 +1,7 @@
+name: IBSpawner
+version: '${project.version}'
+main: ibotus.ibspawner.Main
+api-version: '1.16'
+commands:
+  IBSpawner:
+    permission: ibspawner.reload

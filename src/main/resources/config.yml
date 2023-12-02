@@ -1,0 +1,37 @@
+Lang: 'EN' #Available EN/UA/RU
+
+DisableSpawnerExp: true #If true, then experience will not be awarded when mining a spawner is silk touch.
+
+DropChance: 50 #A value of 50 means there is a 50% chance of getting spawners.
+
+Experience_Required: 5 #The amount of experience required to increase the chances of obtaining a spawner.
+Chance_Increase: 5 #The percentage by which the chance of obtaining a spawner will increase in the menu.
+
+Pickaxe: #List of pickaxe types that can be used to mine spawners.
+  - IRON_PICKAXE
+  - GOLDEN_PICKAXE
+  - DIAMOND_PICKAXE
+  - NETHERITE_PICKAXE
+
+sound: #List of sound
+  break: ENTITY_CHICKEN_EGG
+  fail_break: BLOCK_REDSTONE_TORCH_BURNOUT
+  fail_silk: ENTITY_ARROW_HIT_PLAYER
+  place: BLOCK_BEACON_ACTIVATE
+  open-menu: ENTITY_CHICKEN_EGG
+  open-menu-mob: ENTITY_CHICKEN_EGG
+  add_chance: BLOCK_NOTE_BLOCK_PLING
+  add_error: ENTITY_VILLAGER_NO
+  success: ENTITY_PLAYER_LEVELUP
+  error_egg: ENTITY_VILLAGER_NO
+
+Particle: #Particle
+  Success: #Particle effect played upon successful destruction of a spawner.
+    Type: 'FIREWORKS_SPARK'
+    Amount: 20
+  Fail: #Particle effect played upon unsuccessful destruction of a spawner.
+    Type: 'EXPLOSION_NORMAL'
+    Amount: 20
+  PlacementSuccess: #Particle effect played upon successful placement of a spawner.
+    Type: 'FIREWORKS_SPARK'
+    Amount: 20

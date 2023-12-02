@@ -1,0 +1,6 @@
+messages: #Supports HEX color.
+  spawner_not_dropped: "&cUnfortunately, you were not lucky in obtaining a spawner. :("
+  reload: "&aPlugin configuration successfully reloaded."
+  fail_reload: "&cYou do not have permission!"
+  fail_silk_touch: "&eTo mine a spawner, use a pickaxe with Silk Touch."
+  error_experience: "&cYou do not have enough experience! &e%experience%&c levels are required."

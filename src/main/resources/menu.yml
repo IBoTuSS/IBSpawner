@@ -1,0 +1,210 @@
+menu_enabled: true #If the value is true, the menu will be triggered by shift+right-clicking on the spawner.
+
+inventory_title: "Spawner menu"
+change_spawner_title: "Change Spawner"
+
+item_menu: PAPER #Material in the menu.
+item_menu_egg: DIAMOND #Material in the menu egg.
+
+item_menu_name: "&7Current Chance: &e%chance%%" #Text displayed on the item in the menu.
+item_menu_egg_name: "&7Change spawner"
+
+
+glassType: LIME_STAINED_GLASS_PANE #Material.
+slots: #Slots egg menu
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 17
+  - 18
+  - 26
+  - 27
+  - 35
+  - 36
+  - 44
+  - 45
+  - 46
+  - 47
+  - 48
+  - 49
+  - 50
+  - 51
+  - 52
+  - 53
+
+eggs: #No hex colors.
+  - type: SKELETON_SPAWN_EGG #Egg type.
+    name: Skeleton Egg #Name egg.
+    lore: #description.
+      - Click to change.
+    slot: 10 #Number slots.
+    experienceRequired: 15 #The amount of experience needed to change the type of spawner.
+  - type: ZOMBIE_SPAWN_EGG
+    name: Zombie Egg
+    lore:
+      - Click to change.
+    slot: 11
+    experienceRequired: 10
+  - type: SPIDER_SPAWN_EGG
+    name: Spider Egg
+    lore:
+      - Click to change.
+    slot: 12
+    experienceRequired: 10
+  - type: CAVE_SPIDER_SPAWN_EGG
+    name: Cave Spider Egg
+    lore:
+      - Click to change.
+    slot: 13
+    experienceRequired: 10
+  - type: CHICKEN_SPAWN_EGG
+    name: Chicken Egg
+    lore:
+      - Click to change.
+    slot: 14
+    experienceRequired: 10
+  - type: COW_SPAWN_EGG
+    name: Cow Egg
+    lore:
+      - Click to change.
+    slot: 15
+    experienceRequired: 10
+  - type: CREEPER_SPAWN_EGG
+    name: Creeper Egg
+    lore:
+      - Click to change.
+    slot: 16
+    experienceRequired: 10
+  - type: DROWNED_SPAWN_EGG
+    name: Drowned Egg
+    lore:
+      - Click to change.
+    slot: 19
+    experienceRequired: 10
+  - type: ELDER_GUARDIAN_SPAWN_EGG
+    name: Elder Guardian Egg
+    lore:
+      - Click to change.
+    slot: 20
+    experienceRequired: 10
+  - type: ENDERMAN_SPAWN_EGG
+    name: Enderman Egg
+    lore:
+      - Click to change.
+    slot: 21
+    experienceRequired: 10
+  - type: EVOKER_SPAWN_EGG
+    name: Evoker Egg
+    lore:
+      - Click to change.
+    slot: 22
+    experienceRequired: 10
+  - type: MOOSHROOM_SPAWN_EGG
+    name: Mooshroom Egg
+    lore:
+      - Click to change.
+    slot: 23
+    experienceRequired: 10
+  - type: PIG_SPAWN_EGG
+    name: Pig Egg
+    lore:
+      - Click to change.
+    slot: 24
+    experienceRequired: 10
+  - type: RABBIT_SPAWN_EGG
+    name: Rabbit Egg
+    lore:
+      - Click to change.
+    slot: 25
+    experienceRequired: 10
+  - type: SHEEP_SPAWN_EGG
+    name: Sheep Egg
+    lore:
+      - Click to change.
+    slot: 28
+    experienceRequired: 10
+  - type: SHULKER_SPAWN_EGG
+    name: Shulker Egg
+    lore:
+      - Click to change.
+    slot: 29
+    experienceRequired: 10
+  - type: SLIME_SPAWN_EGG
+    name: Slime Egg
+    lore:
+      - Click to change.
+    slot: 30
+    experienceRequired: 10
+  - type: STRAY_SPAWN_EGG
+    name: Stray Egg
+    lore:
+      - Click to change.
+    slot: 31
+    experienceRequired: 10
+  - type: TURTLE_SPAWN_EGG
+    name: Turtle Egg
+    lore:
+      - Click to change.
+    slot: 32
+    experienceRequired: 10
+  - type: VILLAGER_SPAWN_EGG
+    name: Villager Egg
+    lore:
+      - Click to change.
+    slot: 33
+    experienceRequired: 10
+  - type: VINDICATOR_SPAWN_EGG
+    name: Vindicator Egg
+    lore:
+      - Click to change.
+    slot: 34
+    experienceRequired: 10
+  - type: WITCH_SPAWN_EGG
+    name: With Egg
+    lore:
+      - Click to change.
+    slot: 37
+    experienceRequired: 10
+  - type: WITHER_SKELETON_SPAWN_EGG
+    name: Wither Skeleton Egg
+    lore:
+      - Click to change.
+    slot: 38
+    experienceRequired: 10
+  - type: PIGLIN_SPAWN_EGG
+    name: Piglin Egg
+    lore:
+      - Click to change.
+    slot: 39
+    experienceRequired: 10
+  - type: MAGMA_CUBE_SPAWN_EGG
+    name: Magma Cube Egg
+    lore:
+      - Click to change.
+    slot: 40
+    experienceRequired: 10
+  - type: DONKEY_SPAWN_EGG
+    name: Donkey Egg
+    lore:
+      - Click to change.
+    slot: 41
+    experienceRequired: 10
+  - type: CAT_SPAWN_EGG
+    name: Cat Egg
+    lore:
+      - Click to change.
+    slot: 42
+    experienceRequired: 10
+  - type: HUSK_SPAWN_EGG
+    name: Husk Egg
+    lore:
+      - Click to change.
+    slot: 43
+    experienceRequired: 10
